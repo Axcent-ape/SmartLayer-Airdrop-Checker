@@ -27,10 +27,10 @@ class CheckEligible:
                         f.write(f'\n{res_text}')
                     print(f'{self.thread} | {res_text}')
 
-                    return True
+
                 else:
                     print(f'{self.thread} | Не eligible: {address}')
-
+            return True
         return False
 
     async def logout(self):
